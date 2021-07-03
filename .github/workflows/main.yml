@@ -15,4 +15,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: custom shell command
       run: ls -l
+    - name: custom shell command 2
+      run: env
     
