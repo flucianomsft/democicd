@@ -12,7 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: checkout repo
+      uses: actions/checkout@v2
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
@@ -32,4 +33,16 @@ jobs:
         name: defualt # optional, default is artifact
         # A file, directory or wildcard pattern that describes what to upload
         path: './myapp'
+    
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download a Build Artifact
+      uses: actions/download-artifact@v2.0.10
+      with:
+        # Artifact name
+        name: defualt # optional
+        path: .
+    - name: ls
+      run: ls
     
