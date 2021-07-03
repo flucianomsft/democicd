@@ -50,5 +50,5 @@ jobs:
       uses: Azure/webapps-deploy@v2
       with:
         app-name: demogithubfelcu
-        publish-profile: 
+        publish-profile: ${{secrets.AZ_WEBAPP_PUBLISH_PROFILE}}
         package: . 
