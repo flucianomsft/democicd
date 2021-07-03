@@ -53,4 +53,4 @@ jobs:
         app-name: demogithubfelcu
         publish-profile: ${{secrets.AZ_WEBAPP_PUBLISH_PROFILE}}
         package: . 
-        slot-name: demogithubfelcu-test
+        slot-name: test
