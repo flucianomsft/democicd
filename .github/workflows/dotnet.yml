@@ -24,4 +24,12 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Publish
-      run: dotnet publish --no-build --verbosity normal
+      run: dotnet publish --no-build --verbosity normal -o './myapp/'
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2.2.4
+      with:
+        # Artifact name
+        name: defualt # optional, default is artifact
+        # A file, directory or wildcard pattern that describes what to upload
+        path: /myapp
+    
