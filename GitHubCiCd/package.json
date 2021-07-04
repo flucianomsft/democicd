@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "async": "^0.1.7",
-    "express": "^3.0.3",
+    "express": "^3.11.0",
     "glob": "^1.1.0",
     "jest": "0.0.6",
     "lodash": "^4.17.21",
