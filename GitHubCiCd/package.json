@@ -14,7 +14,7 @@
     "glob": "^1.1.0",
     "jest": "0.0.6",
     "lodash": "^4.17.21",
-    "socket.io": "^0.6.3",
+    "socket.io": "^2.4.0",
     "underscore": "^1.2.2",
     "validator": "^0.1.2",
     "yup": "^0.1.0"
