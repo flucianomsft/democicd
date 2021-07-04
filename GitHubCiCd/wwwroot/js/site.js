@@ -2,3 +2,15 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+function test() {
+    console.log("test");
+    var x = 1;
+    if (x == 1) {
+
+    }
+
+    if (x == 2) {
+
+    }
+}
