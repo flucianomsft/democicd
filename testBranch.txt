@@ -4,3 +4,6 @@ tee
 asd
 testsigning
 test
+test
+test
+test
